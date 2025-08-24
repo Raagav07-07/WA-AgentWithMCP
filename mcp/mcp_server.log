@@ -1,0 +1,1066 @@
+2025-08-24 10:48:06,943 - INFO - StreamableHTTP session manager started
+2025-08-24 10:53:06,299 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 10:53:48,206 - INFO - [MCP-Server] - Starting MCP server...
+2025-08-24 10:53:48,207 - INFO - [MCP-Server] - Server configuration: host=0.0.0.0, port=8000
+2025-08-24 10:53:48,288 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager started
+2025-08-24 11:05:16,011 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager shutting down
+2025-08-24 11:05:54,083 - INFO - [MCP-Server] - Starting MCP server...
+2025-08-24 11:05:54,083 - INFO - [MCP-Server] - Server configuration: host=0.0.0.0, port=8000
+2025-08-24 11:05:54,160 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager started
+2025-08-24 11:14:46,149 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager shutting down
+2025-08-24 11:14:52,021 - INFO - [MCP-Server] - Starting MCP server...
+2025-08-24 11:14:52,022 - INFO - [MCP-Server] - Server configuration: host=0.0.0.0, port=8000
+2025-08-24 11:14:52,127 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager started
+2025-08-24 11:16:42,027 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager shutting down
+2025-08-24 11:16:48,369 - INFO - [MCP-Server] - Starting MCP server...
+2025-08-24 11:16:48,370 - INFO - [MCP-Server] - Server configuration: host=0.0.0.0, port=8000
+2025-08-24 11:16:48,440 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager started
+2025-08-24 11:20:49,657 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager shutting down
+2025-08-24 11:20:55,901 - INFO - [MCP-Server] - Starting MCP server...
+2025-08-24 11:20:55,902 - INFO - [MCP-Server] - Server configuration: host=0.0.0.0, port=8000
+2025-08-24 11:20:55,983 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager started
+2025-08-24 11:24:53,246 - INFO - [mcp.server.streamable_http_manager] - StreamableHTTP session manager shutting down
+2025-08-24 11:24:59,932 - INFO - StreamableHTTP session manager started
+2025-08-24 11:26:48,556 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 11:26:54,906 - INFO - StreamableHTTP session manager started
+2025-08-24 11:29:29,359 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 11:29:36,212 - INFO - StreamableHTTP session manager started
+2025-08-24 11:31:34,240 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 11:31:41,074 - INFO - StreamableHTTP session manager started
+2025-08-24 11:34:34,146 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 11:34:40,186 - INFO - StreamableHTTP session manager started
+2025-08-24 11:36:23,681 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 11:36:30,207 - INFO - StreamableHTTP session manager started
+2025-08-24 12:00:14,470 - INFO - Created new transport with session ID: 4235509b677c4462a8d21fdb5d27b80d
+2025-08-24 12:00:14,782 - INFO - Terminating session: 4235509b677c4462a8d21fdb5d27b80d
+2025-08-24 14:23:49,823 - INFO - Created new transport with session ID: 2c62afa7c19b4a2493b9a550e5c43469
+2025-08-24 14:23:50,102 - INFO - Terminating session: 2c62afa7c19b4a2493b9a550e5c43469
+2025-08-24 14:23:50,891 - INFO - Created new transport with session ID: 998e0c1c942d49b08106dde0853f1f6a
+2025-08-24 14:23:51,175 - INFO - Terminating session: 998e0c1c942d49b08106dde0853f1f6a
+2025-08-24 14:23:51,179 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:23:51,794 - INFO - Created new transport with session ID: de8bb8cc8b68447c8f2938acf22abf70
+2025-08-24 14:23:52,075 - INFO - Terminating session: de8bb8cc8b68447c8f2938acf22abf70
+2025-08-24 14:23:52,079 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:23:52,732 - INFO - Created new transport with session ID: 9ab102f1f6c444aa8594da564c76c6fd
+2025-08-24 14:23:53,015 - INFO - Terminating session: 9ab102f1f6c444aa8594da564c76c6fd
+2025-08-24 14:23:53,021 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:23:53,610 - INFO - Created new transport with session ID: cd8e95b80eb14893ac5fa8d7433931b8
+2025-08-24 14:23:53,894 - INFO - Terminating session: cd8e95b80eb14893ac5fa8d7433931b8
+2025-08-24 14:23:53,898 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:23:53,940 - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-08-24 14:25:03,724 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:25:09,899 - INFO - StreamableHTTP session manager started
+2025-08-24 14:26:42,136 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:26:49,195 - INFO - StreamableHTTP session manager started
+2025-08-24 14:28:15,759 - INFO - Created new transport with session ID: b6afbacc72464c7fabb1c1a674caf0e3
+2025-08-24 14:28:16,056 - INFO - Terminating session: b6afbacc72464c7fabb1c1a674caf0e3
+2025-08-24 14:28:16,063 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:28:16,620 - INFO - Created new transport with session ID: 1a7ccbe1b141403c8ab267322b2f57d5
+2025-08-24 14:28:16,903 - INFO - Terminating session: 1a7ccbe1b141403c8ab267322b2f57d5
+2025-08-24 14:28:17,452 - INFO - Created new transport with session ID: 6a5e110230b94760bb299ed5aae422ab
+2025-08-24 14:28:17,738 - INFO - Terminating session: 6a5e110230b94760bb299ed5aae422ab
+2025-08-24 14:28:17,745 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:28:18,353 - INFO - Created new transport with session ID: 8b9eafc504b5416690288b71ec8a8090
+2025-08-24 14:28:18,636 - INFO - Terminating session: 8b9eafc504b5416690288b71ec8a8090
+2025-08-24 14:28:18,641 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:30:27,881 - INFO - Created new transport with session ID: 06a7437cc9c741bc8ea0921a5b00811c
+2025-08-24 14:30:28,179 - INFO - Terminating session: 06a7437cc9c741bc8ea0921a5b00811c
+2025-08-24 14:30:28,192 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:30:30,523 - INFO - Created new transport with session ID: 70da3d81e146413988b4a504dbc28a5d
+2025-08-24 14:30:30,851 - INFO - Terminating session: 70da3d81e146413988b4a504dbc28a5d
+2025-08-24 14:30:30,870 - ERROR - Error handling POST request
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\mcp\server\streamable_http.py", line 387, in _handle_post_request
+    await writer.send(session_message)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 243, in send
+    self.send_nowait(item)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\streams\memory.py", line 212, in send_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+2025-08-24 14:32:14,962 - INFO - Created new transport with session ID: 7f7d449c3e0f41bfb5c3388928ca3ba5
+2025-08-24 14:32:15,507 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:32:15,511 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+
+This query will retrieve the most recent developments in multimodal AI, covering advancements in handling diverse data types and their applications across various industries. The tool will provide a detailed summary with sources, offering insights into how these models are transforming sectors like healthcare, education, and retail.
+2025-08-24 14:32:15,512 - INFO - Executing search...
+2025-08-24 14:32:15,535 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke(query)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:32:15,822 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:32:16,096 - INFO - Terminating session: 7f7d449c3e0f41bfb5c3388928ca3ba5
+2025-08-24 14:32:18,271 - INFO - Created new transport with session ID: 64ebf612a88243e39422da80ee5aed87
+2025-08-24 14:32:18,832 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:32:18,834 - INFO - MCP : Starting search and summarize with query: {"query": "latest breakthroughs in multimodal AI models and their industry impact"}
+
+This adjustment ensures the tool receives the input in the expected format, allowing it to process the query effectively and provide the necessary analysis.
+2025-08-24 14:32:18,834 - INFO - Executing search...
+2025-08-24 14:32:18,835 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke(query)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:32:19,112 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:32:19,376 - INFO - Terminating session: 64ebf612a88243e39422da80ee5aed87
+2025-08-24 14:32:21,057 - INFO - Created new transport with session ID: a11baeb13c5746e7b9ea0470435c2cb7
+2025-08-24 14:32:21,610 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:32:21,614 - INFO - MCP : Starting search and summarize with query: {"query": "latest breakthroughs in multimodal AI models and their industry impact"}
+
+I hope this corrected format works. If not, I'll need to seek further assistance to resolve the input issue.
+2025-08-24 14:32:21,614 - INFO - Executing search...
+2025-08-24 14:32:21,616 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke(query)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:32:21,898 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:32:22,172 - INFO - Terminating session: a11baeb13c5746e7b9ea0470435c2cb7
+2025-08-24 14:32:30,692 - INFO - Created new transport with session ID: 20558634024942cea79cd5ea7b736679
+2025-08-24 14:32:31,272 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:32:31,273 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+
+I will revert to the original query string format, as the error might be due to an unexpected dictionary input. Hopefully, this will allow the tool to process the request correctly.
+2025-08-24 14:32:31,273 - INFO - Executing search...
+2025-08-24 14:32:31,274 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke(query)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:32:31,553 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:32:31,828 - INFO - Terminating session: 20558634024942cea79cd5ea7b736679
+2025-08-24 14:36:35,044 - INFO - Created new transport with session ID: af7feb193a194225b2fa1a8ad2098f1c
+2025-08-24 14:36:35,602 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:36:35,604 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:36:35,604 - INFO - Executing search...
+2025-08-24 14:36:35,605 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:36:35,902 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:36:36,173 - INFO - Terminating session: af7feb193a194225b2fa1a8ad2098f1c
+2025-08-24 14:36:37,346 - INFO - Created new transport with session ID: 7d9b87a181244d5b88a9dd80fcf9c398
+2025-08-24 14:36:37,912 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:36:37,916 - INFO - MCP : Starting search and summarize with query: latest advancements in multimodal AI models and their industry applications
+2025-08-24 14:36:37,916 - INFO - Executing search...
+2025-08-24 14:36:37,918 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:36:38,200 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:36:38,474 - INFO - Terminating session: 7d9b87a181244d5b88a9dd80fcf9c398
+2025-08-24 14:36:40,884 - INFO - Created new transport with session ID: c2913ef857e2490099291a1fb550e4e6
+2025-08-24 14:36:41,431 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:36:41,434 - INFO - MCP : Starting search and summarize with query: multimodal AI models recent developments industry impact
+2025-08-24 14:36:41,434 - INFO - Executing search...
+2025-08-24 14:36:41,435 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:36:41,706 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:36:41,982 - INFO - Terminating session: c2913ef857e2490099291a1fb550e4e6
+2025-08-24 14:36:44,515 - INFO - Created new transport with session ID: 2cb851ef273f4c0a8b8f95d088532f49
+2025-08-24 14:36:45,092 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:36:45,102 - INFO - MCP : Starting search and summarize with query: latest advancements in multimodal AI models and their industry impact
+2025-08-24 14:36:45,102 - INFO - Executing search...
+2025-08-24 14:36:45,106 - ERROR - Error in search_and_summarize: The input to RunnablePassthrough.assign() must be a dict.
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 524, in _ainvoke
+    raise ValueError(msg)  # noqa: TRY004
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: The input to RunnablePassthrough.assign() must be a dict.
+2025-08-24 14:36:45,396 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:36:45,677 - INFO - Terminating session: 2cb851ef273f4c0a8b8f95d088532f49
+2025-08-24 14:37:24,881 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:37:32,247 - INFO - StreamableHTTP session manager started
+2025-08-24 14:38:01,054 - INFO - Created new transport with session ID: d7926b976c494b5e9c5054b8a6c53d8e
+2025-08-24 14:38:01,630 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:38:01,633 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:38:01,634 - INFO - Executing search...
+2025-08-24 14:38:01,659 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:38:01,964 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:38:02,250 - INFO - Terminating session: d7926b976c494b5e9c5054b8a6c53d8e
+2025-08-24 14:38:03,724 - INFO - Created new transport with session ID: 30768d860efd4cb3b6a4c49c1da55d0b
+2025-08-24 14:38:04,271 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:38:04,273 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:38:04,274 - INFO - Executing search...
+2025-08-24 14:38:04,276 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:38:04,564 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:38:04,842 - INFO - Terminating session: 30768d860efd4cb3b6a4c49c1da55d0b
+2025-08-24 14:38:05,973 - INFO - Created new transport with session ID: eda5add3f21b49c68fdcfbcdfaba9343
+2025-08-24 14:38:06,513 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:38:06,515 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:38:06,515 - INFO - Executing search...
+2025-08-24 14:38:06,519 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:38:06,794 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:38:07,066 - INFO - Terminating session: eda5add3f21b49c68fdcfbcdfaba9343
+2025-08-24 14:38:12,095 - INFO - Created new transport with session ID: 35ba0c63fb794b6ca7d7800911032906
+2025-08-24 14:38:12,659 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:38:12,661 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:38:12,661 - INFO - Executing search...
+2025-08-24 14:38:12,664 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:38:12,952 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:38:13,237 - INFO - Terminating session: 35ba0c63fb794b6ca7d7800911032906
+2025-08-24 14:39:13,335 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:39:19,432 - INFO - StreamableHTTP session manager started
+2025-08-24 14:39:31,616 - INFO - Created new transport with session ID: d6a9f79f5f214207a802e279bf07a14c
+2025-08-24 14:39:32,173 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:39:32,175 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:39:32,176 - INFO - Executing search...
+2025-08-24 14:39:32,201 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:39:32,489 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:39:32,777 - INFO - Terminating session: d6a9f79f5f214207a802e279bf07a14c
+2025-08-24 14:39:35,190 - INFO - Created new transport with session ID: d359c9186c0942aab14744c73854079d
+2025-08-24 14:39:35,739 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:39:35,742 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+</think>
+
+To analyze the latest breakthroughs in multimodal AI models and their industry impact, I will structure the response as follows:
+
+1. **Introduction to Multimodal AI**: Explain the concept of multimodal AI, highlighting its ability to process multiple data types such as text, images, and audio.
+
+2. **Latest Developments**: Discuss recent models like GPT-4, which handles text and images, and mention other notable models from companies like Google.
+
+3. **Industry Applications**:
+   - **Healthcare**: Analyze how multimodal AI can enhance diagnostics by integrating patient records and medical images.
+   - **Retail**: Explore its role in improving customer experiences through combined text and image data for recommendations.
+   - **Content Creation**: Highlight tools like DALL-E for generating images from text prompts.
+   - **Education**: Discuss interactive learning tools combining text and visuals.
+
+4. **Challenges and Considerations**: Address privacy concerns, computational requirements, and advancements in efficiency.
+
+5. **Future Outlook**: Speculate on upcoming trends, emerging models, and potential impacts based on recent conferences and publications like NeurIPS or ICML.
+
+6. **Conclusion**: Summarize the significance of multimodal AI's advancements and their transformative potential across industries.
+
+Using the search_and_analyze tool, I will gather the latest news and sources to support this structured analysis.
+
+Action:
+search_and_analyze
+
+Action Input:
+latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:39:35,742 - INFO - Executing search...
+2025-08-24 14:39:35,747 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:39:36,016 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:39:36,294 - INFO - Terminating session: d359c9186c0942aab14744c73854079d
+2025-08-24 14:39:37,213 - INFO - Created new transport with session ID: ab2d5876d796412e8418e6952bd6d079
+2025-08-24 14:39:37,760 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:39:37,766 - INFO - MCP : Starting search and summarize with query: latest developments in multimodal AI models 2023 and industry applications
+2025-08-24 14:39:37,766 - INFO - Executing search...
+2025-08-24 14:39:37,771 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:39:38,036 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:39:38,316 - INFO - Terminating session: ab2d5876d796412e8418e6952bd6d079
+2025-08-24 14:42:14,233 - INFO - Created new transport with session ID: 285a9405aee345d286aa5abc8a0abdba
+2025-08-24 14:42:14,804 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:42:14,807 - INFO - MCP : Starting search and summarize with query: latest breakthroughs in multimodal AI models and their industry impact
+2025-08-24 14:42:14,807 - INFO - Executing search...
+2025-08-24 14:42:14,812 - ERROR - Error in search_and_summarize: 'intermediate_steps'
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 72, in search_and_summarize
+    search_results = await search_agent_tool.ainvoke({"input": query})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 542, in ainvoke
+    return await self._acall_with_config(self._ainvoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\passthrough.py", line 528, in _ainvoke
+    **await self.mapper.ainvoke(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3820, in ainvoke
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 3812, in _ainvoke_step
+    return await coro_with_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4807, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 1989, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4739, in _ainvoke
+    output = await acall_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4709, in f
+    return await run_in_executor(config, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\base.py", line 4703, in func
+    return call_func_with_variable_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\tool_calling_agent\base.py", line 105, in <lambda>
+    agent_scratchpad=lambda x: message_formatter(x["intermediate_steps"]),
+                                                 ~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'intermediate_steps'
+2025-08-24 14:42:15,081 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:42:15,363 - INFO - Terminating session: 285a9405aee345d286aa5abc8a0abdba
+2025-08-24 14:46:04,810 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:46:40,037 - INFO - StreamableHTTP session manager started
+2025-08-24 14:46:58,839 - INFO - Created new transport with session ID: 9faef10762c244429f83125e8e2abf5d
+2025-08-24 14:46:59,387 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:46:59,390 - INFO - MCP: search_and_summarize start. Query='latest breakthroughs multimodal AI models 2024 industry impact'
+2025-08-24 14:46:59,391 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:47:04,829 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:47:13,015 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:47:13,062 - INFO - MCP: Done.
+2025-08-24 14:47:13,340 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:47:13,615 - INFO - Terminating session: 9faef10762c244429f83125e8e2abf5d
+2025-08-24 14:49:04,638 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:49:09,928 - INFO - StreamableHTTP session manager started
+2025-08-24 14:49:09,964 - INFO - Created new transport with session ID: bbd86ef2ee9b47daa3186bac3690c3e0
+2025-08-24 14:49:10,516 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:49:10,522 - INFO - MCP: search_and_summarize start. Query='latest breakthroughs in multimodal AI models and their industry impact'
+2025-08-24 14:49:10,522 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:49:15,673 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:49:16,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:49:16,589 - INFO - MCP: Done.
+2025-08-24 14:49:16,864 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:49:17,136 - INFO - Terminating session: bbd86ef2ee9b47daa3186bac3690c3e0
+2025-08-24 14:49:17,888 - INFO - Created new transport with session ID: 3977f3503b0a4349b8f7c45e7f9f5fc7
+2025-08-24 14:49:18,421 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:49:18,424 - INFO - MCP: search_and_summarize start. Query='latest advancements in multimodal AI models and their applications in various industries'
+2025-08-24 14:49:18,424 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:49:22,712 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:49:23,833 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:49:23,838 - INFO - MCP: Done.
+2025-08-24 14:49:24,110 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:49:24,387 - INFO - Terminating session: 3977f3503b0a4349b8f7c45e7f9f5fc7
+2025-08-24 14:50:14,747 - INFO - Created new transport with session ID: a5166d2eb4814c16902c75e298f32fd2
+2025-08-24 14:50:15,306 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:50:15,309 - INFO - MCP: search_and_summarize start. Query='latest advancements in multimodal AI models and their applications in various industries'
+2025-08-24 14:50:15,309 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:50:19,968 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:50:20,129 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:50:20,132 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-08-24 14:50:28,485 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:50:28,850 - INFO - MCP: Done.
+2025-08-24 14:50:29,134 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:50:29,413 - INFO - Terminating session: a5166d2eb4814c16902c75e298f32fd2
+2025-08-24 14:51:22,779 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:51:29,258 - INFO - StreamableHTTP session manager started
+2025-08-24 14:51:54,320 - INFO - Created new transport with session ID: 91489e610bd64c679d57fb6f01c0edc9
+2025-08-24 14:51:54,872 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:51:54,875 - INFO - MCP: search_and_summarize start. Query='Multimodal AI models latest breakthroughs and industry impact'
+2025-08-24 14:51:54,875 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:51:59,240 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:52:00,315 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:52:00,337 - INFO - MCP: Done.
+2025-08-24 14:52:00,610 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:52:00,880 - INFO - Terminating session: 91489e610bd64c679d57fb6f01c0edc9
+2025-08-24 14:52:02,155 - INFO - Created new transport with session ID: e3924c7b89d74d78a04f90ce68d5a391
+2025-08-24 14:52:02,716 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:52:02,719 - INFO - MCP: search_and_summarize start. Query='Future applications and limitations of multimodal AI models'
+2025-08-24 14:52:02,719 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:52:05,149 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:52:05,257 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:52:05,260 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-08-24 14:52:12,849 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:52:12,851 - INFO - MCP: Done.
+2025-08-24 14:52:13,131 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:52:13,401 - INFO - Terminating session: e3924c7b89d74d78a04f90ce68d5a391
+2025-08-24 14:54:55,105 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 14:55:00,289 - INFO - StreamableHTTP session manager started
+2025-08-24 14:57:08,136 - INFO - Created new transport with session ID: b546a344fc6c465ca25ae497c7261523
+2025-08-24 14:57:08,710 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:57:08,713 - INFO - MCP: search_and_summarize start. Query='latest breakthroughs in multimodal AI models and industry impact'
+2025-08-24 14:57:08,713 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:57:13,358 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:57:14,553 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:57:14,582 - INFO - MCP: Done.
+2025-08-24 14:57:14,852 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:57:15,128 - INFO - Terminating session: b546a344fc6c465ca25ae497c7261523
+2025-08-24 14:57:18,648 - INFO - Created new transport with session ID: 846ea86559fd40ecaca59a041ba87534
+2025-08-24 14:57:19,198 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:57:19,201 - INFO - MCP: search_and_summarize start. Query='latest multimodal AI models and applications in healthcare retail media entertainment\nThought: The search results provide a comprehensive overview of the latest breakthroughs in multimodal AI models and their industry impact. Here is a detailed summary:\n\n**Key Headlines and Announcements:**\n- Multimodal AI models are gaining traction across industries such as healthcare, retail, and media & entertainment.\n- Companies like Google Cloud are investing in multimodal AI to improve business operations and customer experiences.\n\n**Major Technology Developments:**\n- Multimodal AI models like GPT-4o, LLaVA, and NExT-GPT are being developed to process and generate multiple types of data, including text, images, audio, and video.\n- These models show improved performance in tasks such as image captioning, optical character recognition, and visual question answering.\n\n**Industry Impact and Trends:**\n- Multimodal AI is expected to transform industries such as:\n - Healthcare: personalized medicine, disease diagnosis, and patient data analysis.\n - Retail: personalized customer experiences, product recommendations, and streamlined searches.\n - Media & Entertainment: AI-powered search, AI-enhanced customer experiences, and deepfake defense.\n- Organizations are using multimodal AI to build AI agents, implement AI-powered search, and create AI-enhanced customer experiences.\n\n**Notable Quotes and Figures:**\n- "We\'ll see a rise in the adoption of multimodal AI models to analyze data such as medical records, imaging data, and genomic information to draw insightful summaries, moving closer to the vision of personalized medicine." - Gupta (Google Cloud)\n- GPT-4o is50% cheaper and twice as fast as GPT-4 Turbo.\n- LLaVA-Med achieved92.5% accuracy on ScienceQA, a benchmark with over21,000 questions.\n\n**Future Implications:**\n- Multimodal AI is expected to improve and become more widespread, leading to increased efficiency and personalized experiences.\n- Concerns around data privacy, misinterpretation, and bias need to be addressed to ensure ethical use.\n\nFor further details, you can refer to the sources:\n- AI\'s impact on industries in2025 | Google Cloud Blog: https://cloud.google.com/transform/ai-impact-industries-2025\n- What is multimodal AI: Complete overview2025 - SuperAnnotate: https://www.superannotate.com/blog/multimodal-ai\n- Top10 Multimodal AI Models of2024 - Zilliz Learn: https://zilliz.com/learn/top-10-best-multimodal-ai-models-you-should-know\n- Top10 Multimodal Models - Encord: https://encord.com/blog/top-multimodal-models/\n- Top Multimodal AI Applications & Use Cases in2025 - Shaip: https://www.shaip.com/blog/the-top-multimodal-ai-applications-and-use-cases/'
+2025-08-24 14:57:19,201 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:57:19,986 - ERROR - MCP: Error in search_and_summarize
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 76, in search_and_summarize
+    title = item.get("title", "").strip()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-08-24 14:57:20,283 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:57:20,555 - INFO - Terminating session: 846ea86559fd40ecaca59a041ba87534
+2025-08-24 14:57:22,507 - INFO - Created new transport with session ID: 3346556800f940b6bdb4806fafaeab51
+2025-08-24 14:57:23,049 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:57:23,051 - INFO - MCP: search_and_summarize start. Query='multimodal AI models applications in healthcare retail media entertainment\nThought: The search results provide a comprehensive overview of the latest breakthroughs in multimodal AI models and their industry impact. Here is a detailed summary:\n\n**Key Headlines and Announcements:**\n- Multimodal AI models are gaining traction across industries such as healthcare, retail, and media & entertainment.\n- Companies like Google Cloud are investing in multimodal AI to improve business operations and customer experiences.\n\n**Major Technology Developments:**\n- Multimodal AI models like GPT-4o, LLaVA, and NExT-GPT are being developed to process and generate multiple types of data, including text, images, audio, and video.\n- These models show improved performance in tasks such as image captioning, optical character recognition, and visual question answering.\n\n**Industry Impact and Trends:**\n- Multimodal AI is expected to transform industries such as:\n - Healthcare: personalized medicine, disease diagnosis, and patient data analysis.\n - Retail: personalized customer experiences, product recommendations, and streamlined searches.\n - Media & Entertainment: AI-powered search, AI-enhanced customer experiences, and deepfake defense.\n- Organizations are using multimodal AI to build AI agents, implement AI-powered search, and create AI-enhanced customer experiences.\n\n**Notable Quotes and Figures:**\n- "We\'ll see a rise in the adoption of multimodal AI models to analyze data such as medical records, imaging data, and genomic information to draw insightful summaries, moving closer to the vision of personalized medicine." - Gupta (Google Cloud)\n- GPT-4o is50% cheaper and twice as fast as GPT-4 Turbo.\n- LLaVA-Med achieved92.5% accuracy on ScienceQA, a benchmark with over21,000 questions.\n\n**Future Implications:**\n- Multimodal AI is expected to improve and become more widespread, leading to increased efficiency and personalized experiences.\n- Concerns around data privacy, misinterpretation, and bias need to be addressed to ensure ethical use.\n\nFor further details, you can refer to the sources:\n- AI\'s impact on industries in2025 | Google Cloud Blog: https://cloud.google.com/transform/ai-impact-industries-2025\n- What is multimodal AI: Complete overview2025 - SuperAnnotate: https://www.superannotate.com/blog/multimodal-ai\n- Top10 Multimodal AI Models of2024 - Zilliz Learn: https://zilliz.com/learn/top-10-best-multimodal-ai-models-you-should-know\n- Top10 Multimodal Models - Encord: https://encord.com/blog/top-multimodal-models/\n- Top Multimodal AI Applications & Use Cases in2025 - Shaip: https://www.shaip.com/blog/the-top-multimodal-ai-applications-and-use-cases/'
+2025-08-24 14:57:23,051 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:57:24,081 - ERROR - MCP: Error in search_and_summarize
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 76, in search_and_summarize
+    title = item.get("title", "").strip()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-08-24 14:57:24,364 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:57:24,641 - INFO - Terminating session: 3346556800f940b6bdb4806fafaeab51
+2025-08-24 14:57:25,456 - INFO - Created new transport with session ID: 7a776ea83e744dabb06107ebd20c2097
+2025-08-24 14:57:26,017 - INFO - Processing request of type CallToolRequest
+2025-08-24 14:57:26,019 - INFO - MCP: search_and_summarize start. Query='multimodal AI models applications in healthcare retail media entertainment industry impact'
+2025-08-24 14:57:26,020 - INFO - MCP: Executing Tavily search ...
+2025-08-24 14:57:29,446 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 14:57:30,727 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:57:30,732 - INFO - MCP: Done.
+2025-08-24 14:57:31,017 - INFO - Processing request of type ListToolsRequest
+2025-08-24 14:57:31,297 - INFO - Terminating session: 7a776ea83e744dabb06107ebd20c2097
+2025-08-24 15:05:34,713 - INFO - Created new transport with session ID: 1c4c2dfdbe094545b0c62245e04ed7c3
+2025-08-24 15:05:35,246 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:05:35,249 - INFO - MCP: search_and_summarize start. Query='latest breakthroughs in multimodal AI models and industry impact'
+2025-08-24 15:05:35,249 - INFO - MCP: Executing Tavily search ...
+2025-08-24 15:05:41,718 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 15:05:42,664 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 15:05:42,666 - INFO - MCP: Done.
+2025-08-24 15:05:42,948 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:05:43,219 - INFO - Terminating session: 1c4c2dfdbe094545b0c62245e04ed7c3
+2025-08-24 15:05:45,400 - INFO - Created new transport with session ID: 2e7a229f27154a56a9fcb61c24cf5a10
+2025-08-24 15:05:45,959 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:05:45,961 - INFO - MCP: search_and_summarize start. Query='latest breakthroughs in multimodal AI models and industry impact'
+2025-08-24 15:05:45,961 - INFO - MCP: Executing Tavily search ...
+2025-08-24 15:05:51,622 - INFO - MCP: Summarizing with LLM ...
+2025-08-24 15:05:53,190 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 15:05:53,195 - INFO - MCP: Done.
+2025-08-24 15:05:53,471 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:05:53,735 - INFO - Terminating session: 2e7a229f27154a56a9fcb61c24cf5a10
+2025-08-24 15:05:58,047 - INFO - Created new transport with session ID: 3da02b69e57544d6a8af1c70d3846fa3
+2025-08-24 15:05:58,605 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:05:58,612 - INFO - MCP: search_and_summarize start. Query='latest breakthroughs in multimodal AI models and industry impact\n\n**Structured Summary:**\n\n**1. Key Headlines & Announcements**\n\n* The multimodal AI market is projected to surge from $1.0 billion in2023 to $4.5 billion by2028, at a CAGR of35.0%.\n* Deepseek AI has disrupted the traditional business of ChatGPT, Gemini, and other platforms in the1st quarter of2025.\n* IBM has introduced its new IBM Telum II processor and IBM Spyre accelerator to enhance enterprise-scale AI, including large language models.\n\n**2. Major Technology Developments**\n\n* Multimodal AI models can handle multiple types of data inputs and outputs, such as text, images, audio, and video.\n* GPT-4o, OpenAI\'s latest multimodal model, can process and generate text, audio, images, and video in real-time.\n* CLIP (Contrastive Language-Image Pre-training) is a multimodal vision-language model by OpenAI that performs image classification tasks.\n\n**3. Industry Impact & Trends**\n\n* Multimodal AI is transforming industries, including healthcare, customer service, retail, and security.\n*70% of business leaders are actively exploring or investing in Generative AI to drive innovation and boost organizational productivity.\n* Major companies are increasing their R&D investments in multimodal AI, changing the technological landscape of AI.\n\n**4. Notable Quotes or Figures**\n\n* "Multimodal AI adds a layer to generative AI to make it more powerful by having capabilities to manage multiple types of data in inputs and outputs."\n* GPT-4o is "50% cheaper and twice as fast as the GPT-4 Turbo".\n\n**5. Brief Future Implications**\n\n* As multimodal AI models improve, they could produce higher-quality, machine-generated content, raising concerns about potential misuse.\n* Future advancements in multimodal AI will focus on real-time edge AI applications, involving human-AI collaboration.\n\n**Sources:**\n\n* Multimodal AI Market Size & Share, Statistics Report2025-2034 - https://www.gminsights.com/industry-analysis/multimodal-ai-market\n* Multimodal AI Agents and Applications: Shaping Industries - https://niveussolutions.com/multimodal-ai-application-models-and-agents/\n* What is multimodal AI: Complete overview2025 - SuperAnnotate - https://www.superannotate.com/blog/multimodal-ai\n* Top10 Multimodal AI Models of2024 - Zilliz Learn - https://zilliz.com/learn/top-10-best-multimodal-ai-models-you-should-know\n* Top10 Multimodal Models - Encord - https://encord.com/blog/top-multimodal-models/'
+2025-08-24 15:05:58,612 - INFO - MCP: Executing Tavily search ...
+2025-08-24 15:05:59,751 - ERROR - MCP: Error in search_and_summarize
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 76, in search_and_summarize
+    title = item.get("title", "").strip()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-08-24 15:06:00,032 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:06:00,311 - INFO - Terminating session: 3da02b69e57544d6a8af1c70d3846fa3
+2025-08-24 15:06:07,575 - INFO - Created new transport with session ID: b27b3244eaa14b44b5d02caa53c9935e
+2025-08-24 15:06:08,137 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:06:08,139 - INFO - MCP: search_and_summarize start. Query="latest breakthroughs in multimodal AI models \n\nThe latest breakthroughs in multimodal AI models are transforming various industries, including healthcare, security, and finance, by enabling the simultaneous processing of different data modalities such as text, video, audio, and images.\n\n**Key Highlights:**\n\n* The multimodal AI market is projected to surge from $1.0 billion in2023 to $4.5 billion by2028, at a CAGR of35.0%.\n* Multimodal AI models can handle multiple types of data inputs and outputs, such as text, images, audio, and video.\n* GPT-4o, OpenAI's latest multimodal model, can process and generate text, audio, images, and video in real-time.\n\n**Industry Impact:**\n\n* Multimodal AI is transforming industries, including healthcare, customer service, retail, and security.\n*70% of business leaders are actively exploring or investing in Generative AI to drive innovation and boost organizational productivity.\n* Major companies are increasing their R&D investments in multimodal AI, changing the technological landscape of AI.\n\n**Future Implications:**\n\n* As multimodal AI models improve, they could produce higher-quality, machine-generated content, raising concerns about potential misuse.\n* Future advancements in multimodal AI will focus on real-time edge AI applications, involving human-AI collaboration.\n\n**Sources:**\n\n* Multimodal AI Market Size & Share, Statistics Report2025-2034 - https://www.gminsights.com/industry-analysis/multimodal-ai-market\n* Multimodal AI Agents and Applications: Shaping Industries - https://niveussolutions.com/multimodal-ai-application-models-and-agents/\n* What is multimodal AI: Complete overview2025 - SuperAnnotate - https://www.superannotate.com/blog/multimodal-ai\n* Top10 Multimodal AI Models of2024 - Zilliz Learn - https://zilliz.com/learn/top-10-best-multimodal-ai-models-you-should-know\n* Top10 Multimodal Models - Encord - https://encord.com/blog/top-multimodal-models/"
+2025-08-24 15:06:08,139 - INFO - MCP: Executing Tavily search ...
+2025-08-24 15:06:09,089 - ERROR - MCP: Error in search_and_summarize
+Traceback (most recent call last):
+  File "D:\Projects\AgentWithMCP\WA-AgentWithMCP\mcp\mcp_server.py", line 76, in search_and_summarize
+    title = item.get("title", "").strip()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-08-24 15:06:09,359 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:06:09,662 - INFO - Terminating session: b27b3244eaa14b44b5d02caa53c9935e
+2025-08-24 15:11:41,019 - INFO - StreamableHTTP session manager shutting down
+2025-08-24 15:11:46,051 - INFO - StreamableHTTP session manager started
+2025-08-24 15:21:33,775 - INFO - Created new transport with session ID: 117de6a2fcff42fa831d707545be529a
+2025-08-24 15:21:34,346 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:21:34,349 - INFO - MCP : Starting search and summarize with query: Latest breakthroughs in AI models2025
+
+Please wait while I receive and summarize the information... 
+
+(I will provide the final answer once I have the results)
+2025-08-24 15:21:38,686 - INFO - Search completed
+2025-08-24 15:21:38,958 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:21:39,245 - INFO - Terminating session: 117de6a2fcff42fa831d707545be529a
+2025-08-24 15:24:10,701 - INFO - Created new transport with session ID: d3768203bcae41cda3b6f9e19430cfc0
+2025-08-24 15:24:11,289 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:24:11,291 - INFO - MCP : Starting search and summarize with query: Latest breakthroughs in AI models 2025
+
+Please wait while I receive and summarize the information... 
+
+(I will provide the final answer once I receive the raw news)
+2025-08-24 15:24:16,168 - INFO - Search completed
+2025-08-24 15:24:16,447 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:24:16,724 - INFO - Terminating session: d3768203bcae41cda3b6f9e19430cfc0
+2025-08-24 15:35:38,625 - INFO - Created new transport with session ID: a3250230bb594cb69b43c40d1660884c
+2025-08-24 15:35:39,175 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:35:39,179 - INFO - MCP : Starting search and summarize with query: Latest breakthroughs in AI models 2025
+2025-08-24 15:35:42,925 - INFO - Search completed
+2025-08-24 15:35:43,199 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:35:43,477 - INFO - Terminating session: a3250230bb594cb69b43c40d1660884c
+2025-08-24 15:36:16,328 - INFO - Created new transport with session ID: d810cd30142c4b0d881e5840bc13589b
+2025-08-24 15:36:16,893 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:36:16,895 - INFO - MCP : Starting search and summarize with query: Latest breakthroughs in AI models and new product launch in 2025
+2025-08-24 15:36:20,547 - INFO - Search completed
+2025-08-24 15:36:20,829 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:36:21,104 - INFO - Terminating session: d810cd30142c4b0d881e5840bc13589b
+2025-08-24 15:40:07,229 - INFO - Created new transport with session ID: a38882291eef4f649787c73d5aada1be
+2025-08-24 15:40:07,792 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:40:08,307 - INFO - Terminating session: a38882291eef4f649787c73d5aada1be
+2025-08-24 15:40:52,125 - INFO - Created new transport with session ID: 24e2ce92a4a342ed8a37d7ed3302aead
+2025-08-24 15:40:52,698 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:40:52,701 - INFO - MCP : Starting search and summarize with query: Latest breakthroughs in AI models 2025
+2025-08-24 15:40:57,395 - INFO - Search completed
+2025-08-24 15:40:57,686 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:40:57,954 - INFO - Terminating session: 24e2ce92a4a342ed8a37d7ed3302aead
+2025-08-24 15:41:30,596 - INFO - Created new transport with session ID: e6919f8853fb4663a1d30231b6ac1b16
+2025-08-24 15:41:31,131 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:41:31,133 - INFO - MCP : Starting search and summarize with query: Latest technology product or AI model launch 2025
+2025-08-24 15:41:34,962 - INFO - Search completed
+2025-08-24 15:41:35,246 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:41:35,515 - INFO - Terminating session: e6919f8853fb4663a1d30231b6ac1b16
+2025-08-24 15:42:12,971 - INFO - Created new transport with session ID: 5e1c40ab520f485398dd4e269bea1cb1
+2025-08-24 15:42:13,518 - INFO - Processing request of type CallToolRequest
+2025-08-24 15:42:13,520 - INFO - MCP : Starting search and summarize with query: Latest technology product or AI model launch 2025
+2025-08-24 15:42:17,598 - INFO - Search completed
+2025-08-24 15:42:17,864 - INFO - Processing request of type ListToolsRequest
+2025-08-24 15:42:18,136 - INFO - Terminating session: 5e1c40ab520f485398dd4e269bea1cb1
