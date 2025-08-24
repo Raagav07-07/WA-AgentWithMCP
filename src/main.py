@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.tools import Tool as AsyncTool
-
+import pywhatkit as kit
 load_dotenv()
 
 # ----------------- Configuration -----------------
@@ -75,3 +75,4 @@ if __name__ == "__main__":
     print("-" * 80)
     print(summary)
     print("-" * 80)
+    kit.sendwhatmsg_instantly("+918778932219", summary)
